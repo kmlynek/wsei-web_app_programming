@@ -123,7 +123,7 @@ var UI = /** @class */ (function () {
     };
     UI.prototype.generateInvalidUI = function () {
         var invalidMsg = document.createElement('b');
-        invalidMsg.innerText = "Wartości nie zostały dodane!";
+        invalidMsg.innerText = "Wartości nie zostały dodane";
         this.statsSection.appendChild(invalidMsg);
     };
     return UI;
