@@ -131,7 +131,7 @@ class UI {
 
     generateInvalidUI(): void {
         const invalidMsg = document.createElement('b');
-        invalidMsg.innerText = "Wartości nie zostały dodane";
+        invalidMsg.innerText = "Wartości nie zostały dodane!";
         this.statsSection.appendChild(invalidMsg);
     }
 }
